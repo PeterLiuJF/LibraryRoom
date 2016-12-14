@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+@using System.Web.Optimization;
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/modernizr")
+    
+</head>
+<body>
+    <div class="container">
+        @Html.Partial("_Menu")
+    </div>
+    <div class="body-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

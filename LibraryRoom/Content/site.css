@@ -1,0 +1,11 @@
+﻿body {
+}
+#hoverclock{
+    z-index:-1;
+    
+}
+/*首页*/
+.left-body{
+    width:270px;
+    float:left;
+}
